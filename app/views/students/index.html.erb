@@ -1,0 +1,7 @@
+<h1>Students Index</h1>
+
+<br>
+
+<% @students.each do |student| %>
+  <%= render partial: 'student', locals: { student: student } %>
+<% end %>
